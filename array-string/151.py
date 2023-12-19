@@ -1,0 +1,3 @@
+# reverse words in a string
+def reverseWords(self, s: str) -> str:
+	return ' '.join(s.strip().split()[::-1])
